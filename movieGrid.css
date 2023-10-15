@@ -1,0 +1,163 @@
+/* 
+Name : Nees Abudaada
+Date ; Wed Sep7,2022
+File : movieGrid.css 
+Description:  This is the CSS file which is the style file connected
+to the tmntGrid.html file. This file's style uses a grid to design the 
+web page and each part goes into column and row. It is used to display
+the classes that were used in the HTML file. Also, it sets the background
+images, colors, fonts, and the correct position for each element. Each
+class uses width or right or margin or padding to be aligned and look
+balanced to format the website style. 
+s */
+
+
+@charset "UTF-8";
+
+.top{
+	background-image: url("images/rancidbannerbg.png");
+    height: 50px;
+}
+
+body{
+	background-image: url("images/moviebg.png");
+	padding-bottom:40px;
+}
+
+
+.shadow{
+	text-shadow:2px 4px  grey ;
+	padding-top:60px;
+	margin-top:-50px;
+	text-align: center; 
+	font-weight: bold;
+    font-size: 24pt;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.grid-container{
+	display:grid;
+	background-color: #d3d3d3;
+	width: 940px;
+	height:1000px;
+	border: 1px solid grey;
+	box-shadow:10px 10px 5px grey;
+	margin: auto;
+	border-radius: 10px;
+}
+
+.grid-item {
+	text-align: center;	
+} 
+
+
+.rating{
+	background:url(images/rottenlargebg.png);
+    width:700px;
+	grid-row: 1;	
+	grid-column: 1 / span 2;
+	border-top-left-radius: 10px;
+	height:84px;
+}
+
+.rottenlargeImg{
+	margin-right : 520px;
+	border-top-left-radius: 10px;
+}
+ 
+
+.percentText{
+	color: red;
+	font-size: 36pt;
+	margin-top: -500px;
+	font-family: sans-serif;
+	margin-left:-905px; 
+    font-weight: bold;
+}
+
+
+.image{
+	grid-row: 1 / span 2;
+	grid-column: 3;		
+	margin-left: -10px;
+ 	border-radius: 25px;
+ 	margin-bottom: -10px;
+ 	
+ }
+
+.overViewImage{
+
+	border-top-right-radius: 10px;
+
+}
+
+.reviewLeft{
+	grid-row: 2/ span 3;
+	grid-column: 1;
+	height:720px;
+	
+}
+.reviewRight{
+	grid-row: 2/ span 3;
+	grid-column: 2;
+	margin-right:20px;
+}
+
+.table{
+	grid-row: 3/ span 3;
+	grid-column: 3;
+	border-bottom-right-radius: 10px;
+	background-color:#8FBC8F;
+	height:594px;
+	padding-left:10px;
+	margin-left: -10px;	
+    width:240px;
+	font-family: sans-serif;
+    font-size:11pt;
+    text-align:left;
+}
+
+.h{
+	text-shadow:2px 3px  grey ;
+	text-align: center; 
+    font-size: 24pt;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+dt{
+	font-weight:bold;
+}
+
+
+
+.conentBottom {
+	text-align:left;
+	margin-left:30px;
+	width: 200px;
+    font-size: 10pt;    
+    padding-bottom:10px;	
+}
+
+
+.conent{	
+	width: 280px;
+	text-align:left;
+    margin-left: 20px;
+    font-size: 11pt;    
+    background-color: #FFFFFF;
+    border: 2px solid grey;
+    border-radius: 19px;
+    padding: 16px;   
+}
+
+.conentBottomm{
+
+	text-align:left;
+	margin-left:30px;
+	width: 200px;
+    font-size: 10pt;    
+    padding-bottom:45px;
+    
+
+}

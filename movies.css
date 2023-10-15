@@ -1,0 +1,181 @@
+/* 
+Name : Nees Abudaada
+Date ; Wed Sep7,2022
+File : movies.css 
+Description:  This is the CSS file which is the style file connected
+to the tmnt.html file. It is used to display the classes that were 
+used in the HTML file. Also, it sets the background images, colors,
+fonts, and the correct position for each element. Each class uses 
+width or right or margin or padding to be aligned and look balanced
+to format the website style. 
+*/
+
+@charset "UTF-8";
+body{
+	background-image: url("images/moviebg.png");
+}
+
+dt{
+	font-weight:bold;
+}
+
+
+.title{
+	background-image: url("images/rancidbannerbg.png");
+    height: 50px;
+}
+
+
+h1 {
+	float: center;
+	margin-top: -40px;
+	text-shadow:2px 3px  grey ;
+	padding-top:60px;
+	text-align: center; 
+    font-size: 24pt;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+.overview{
+    float:right;
+    margin-left: 618px;
+	border-radius: 2px;
+	position: relative;	
+}
+
+.overview img{
+    float:right;
+    margin-left: 618px;
+	border-radius: 2px;
+}
+
+.table{
+    font-family: sans-serif;
+    width:228px;
+    height:595px;
+    margin:auto;
+    padding:10px;
+    margin-top: -565px;
+    font-size:11pt;
+    margin-bottom: 100px;
+    float: right;
+    border: 1px solid #3e3e3e;
+    margin-left: 610px;
+    background: #8FBC8F;
+}
+
+.contentBox{
+	margin-left: auto;
+	background-color: #d3d3d3;
+    margin-right: auto;
+	width: 940px;
+	height:1000px;
+	border: 1px solid grey;
+	box-shadow:10px 10px 5px grey;
+	margin: auto;
+	border-radius: 20px;
+	position: relative;	
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+
+
+.rottenlarge{
+	background:url(images/rottenlargebg.png);
+ 	margin:auto;
+    margin-top: -415px;
+    width:700px;
+    float: left;
+}
+
+.percentText{
+	color: red;
+	font-size: 36pt;
+	margin-bottom: 215px;
+	padding-top:-10px;
+	margin-left:50px;	
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.rottenlargeImg {	
+	margin:auto;
+    float: left;   
+}
+
+.leftColumn{
+    float: left;    
+    width: 230px;
+    margin-left: 2px;
+    margin-top: -320px;
+}
+
+.rightColumn{
+    float: right;    
+    width: 220px;
+    margin-right: 375px;
+    margin-top: -320px;
+    
+}
+
+.conentClass{
+	margin-right: -50px;	
+	vertical-align: top;
+	margin-top: 2%;
+}
+
+.conent{	
+	vertical-align: top;
+	width: 280px;
+    margin-left: 2%;
+    font-size: 11pt;    
+    background-color: #FFFFFF;
+    border: 2px solid grey;
+    border-radius: 19px;
+    padding: 16px;   
+    padding-top: -6px;  
+    overflow: hidden;
+    position: relative;
+}
+
+
+.icon{
+	float: left;	
+}
+
+.icon2{
+	float: left;	
+}
+
+
+.conentBottom img {
+	vertical-align:top;
+	float: left;
+	margin-left:-10px;
+}
+
+.firstBottom{	
+	vertical-align: top;
+	margin-top: -5px;
+	width: 200px;
+    margin-left:0px;
+    font-size: 10pt;    
+    padding-bottom: 35px;    
+    overflow: hidden;
+    position: relative;
+	
+}
+
+.conentBottom {
+	vertical-align: top;
+	margin-top: -15px;
+	margin-left:10px;
+	width: 200px;
+    margin-left: 2%;
+    font-size: 10pt;    
+    padding: 8px;    
+    overflow: hidden;
+    position: relative;
+	
+}
